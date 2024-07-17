@@ -270,7 +270,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   backdrop-filter: blur(5px);
 }
 .landing {
-  background: url(/Images/landing-bg.png), no-repeat center/cover;
+  background: linear-gradient(90deg, rgba(0, 0, 0,0.3), rgba(0, 0, 0,0.3)), url(/Images/landing-bg.png), no-repeat center/cover;
 }
 .feature {
   background-color: rgba(150, 112, 72);
@@ -314,16 +314,13 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   *{
       box-sizing: border-box;
   }
-  .tag-line h1 {
+  .tag-line h1, .projects-contact h2 {
     font-size: 1.8rem;
   }
-  .tag-line p {
+  .tag-line p, .extra-services p, .equipment-start p, .about-start h2, .extra-services p{
     font-size: 1.2rem;
   }
-  .intro-text h2{
-    font-size: 1.4rem;
-  }
-  .about-start h2{
+  .intro-text h2, .about-start h2, .equipment-start h2, .extra-services h1, .contact-us h1{
     font-size: 1.4rem;
   }
   .about-start p{
@@ -367,13 +364,11 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   .values-container p{
       font-size: .7rem;
   }
-  /* Equipment */
-  .equipment-start h2{
-    font-size: 1.4rem;
+  /* Contact Us */
+  .contact-us p{
+    font-size: 1.1rem;
   }
-  .equipment-start p{
-    font-size: 1rem;
-  }
+  /* End */
   .footer-cover{
       display: flex;
       flex-direction: row;
@@ -434,6 +429,9 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
       align-items: center;
       justify-content: center;
       height: 7rem;
+  }
+  .footer-logo {
+    margin: 0 auto;
   }
 }
 /* end */
