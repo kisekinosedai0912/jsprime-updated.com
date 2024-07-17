@@ -332,7 +332,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
       padding-left: 2rem;
       margin: 0 auto;
   }
-
   /* About */
   .about-container {
       display: flex;
@@ -368,7 +367,6 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   .contact-us p{
     font-size: 1.1rem;
   }
-  /* End */
   .footer-cover{
       display: flex;
       flex-direction: row;
