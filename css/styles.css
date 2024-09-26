@@ -91,6 +91,11 @@
   }
 }
 
+#project-image {
+  width: 500px;
+  height: 326px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
